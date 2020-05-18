@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adeneme">
+
+    <LinearLayout
+        android:id="@+id/layoutA"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="isim gir" />
+
+        <EditText
+            android:id="@+id/editTextyas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yaş gir" />
+
+        <CheckBox
+            android:id="@+id/CheckBoxonay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Onaylıyor musunuz?" />
+
+        <Button
+            android:id="@+id/button_Kaydet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaydet" />
+
+        <Button
+            android:id="@+id/button_oku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oku" />
+
+        <Button
+            android:id="@+id/button_tamamini_sil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tamamını Sil" />
+
+        <Button
+            android:id="@+id/button_secileni_sil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sadece İsimi SİL" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
